@@ -99,3 +99,18 @@ Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankanperint
 php spark routes
 ```
 
+![](foto/11.png)
+
+Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost/lab11_php_ci/ci4/public/about
+
+![](foto/12.png)
+
+Ketika diakses akan mucul tampilan error 404 file not found, itu artinya file/page tersebut tidak ada. 
+Untuk dapat mengakses halaman tersebut, harus dibuat terlebih dahulu Contoller yang sesuai dengan routing yang dibuat yaitu Contoller Page.
+
+## Membuat Controller
+Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama <b>page.php</b> pada folder 
+pada direktori Controller kemudian isi kodenya seperti berikut.
+
+![](foto/13.png)
+
