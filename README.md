@@ -36,3 +36,66 @@ manual.
 • Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.<br>
 • Ubah nama direktory framework-4.x.xx menjadi ci4.<br>
 • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/ <br>
+
+![](foto/4.png)
+
+## Menjalankan CLI (Command Line Interface)
+
+Codeigniter 4 menyediakan CLI untuk mempermudah proses development. 
+Untuk mengakses CLI buka terminal/command prompt.
+
+![](foto/3.png)
+
+Arahkan lokasi direktori sesuai dengan direktori kerja project dibuat
+(xampp/htdocs/lab11_ci/ci4/)
+
+Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah:
+``` php
+php spark
+```
+
+![](foto/5.png)
+
+## Mengaktifkan Mode Debugging
+
+Codeigniter 4 menyediakan fitur <b>debugging</b> untuk memudahkan developer untuk
+mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program.
+
+Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan
+pesan kesalahan seperti berikut.
+
+![](foto/6.png)
+
+Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis
+errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi
+pada environment variable <B>CI_ENVIRINMENT</b> menjadi <b>development</b>.
+
+![](foto/7.png)
+
+Ubah nama file <b>env</b> menjadi <b>.env</b> kemudian buka file tersebut dan ubah nilai variable
+<b>CI_ENVIRINMENT</b> menjadi <b>development</b>. lalu hapus tanda <b>#</b> sebelum CI_ENVIRINMENT.
+
+Contoh error yang terjadi untuk mencoba error tersebut ubah kode pada file <B>app/Controller/Home.php</b> hilangkan (;) pada akhir kode.
+
+![](foto/9.png)
+hasilnya 
+![](foto/8.png)
+
+## Membuat Route Baru.
+
+Tambahkan kode berikut di dalam <b>app/Config/Routes.php</b>
+
+```php
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+```
+
+![](foto/10.png)
+
+Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankanperintah berikut.
+
+```php
+php spark routes
+```
+
