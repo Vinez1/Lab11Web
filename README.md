@@ -114,3 +114,150 @@ pada direktori Controller kemudian isi kodenya seperti berikut.
 
 ![](foto/13.png)
 
+## Auto Routing
+
+Secara default fitur autoroute pada Codeiginiter sudah aktif.
+Untuk mengubah status autoroute dapat mengubah nilai variabelnya. 
+Untuk menonaktifkan ubah nilai <b>true</b> menjadi <b>false</b>.
+
+Untuk mengubahnya ada di <b>app/Config/Routes.php</b>
+
+```php
+$routes->setAutoRoute(true);
+```
+![](foto/14.png)
+
+Tambahkan method baru pada Controller Page seperti berikut.
+```php
+public function tos()
+{
+echo "ini halaman Term of Services";
+}
+```
+
+Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
+
+![](foto/15.png)
+
+## Membuat View
+
+Selanjutnya adalah membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama <b>about.php</b> pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title><?= $title; ?></title>
+</head>
+<body>
+ <h1><?= $title; ?></h1>
+ <hr>
+ <p><?= $content; ?></p>
+</body>
+</html>
+```
+Ubah Method about pada class controler page menjadi seperti ini pada <b>app/Controllers/page.php</b>
+
+```php
+public function about()
+{
+ return view('about', [
+ 'title' => 'Halaman Abot',
+ 'content' => 'Ini adalah halaman abaut yang menjelaskan tentang isi
+halaman ini.'
+ ]);
+}
+```
+![](foto/17.png)
+
+lalu refesh browser dan tampilan pada browsernya akan seperti ini
+
+![](foto/16.png)
+
+## Membuat Layout Web dengan CSS
+Pada dasarnya layout web dengan css dapat diimplementasikan dengan mudah pada codeigniter. 
+yang perlu diketahui adalah, pada codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public.
+
+Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+
+![](foto/18.png)
+
+Kemudaian buat folder template pada direktori view kemudian buat file <b>header.php</b> dan <b>footer.php</b>
+
+File <b>(app/view/template/header.php)</b>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <title><?= $title; ?></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1>Layout Sederhana</h1>
+      </header>
+      <nav>
+        <a href="<?= base_url('/'); ?>" class="active">Home</a>
+        <a href="<?= base_url('/artikel'); ?>">Artikel</a>
+        <a href="<?= base_url('/about'); ?>">About</a>
+        <a href="<?= base_url('/contact'); ?>">Kontak</a>
+      </nav>
+      <section id="wrapper">
+        <section id="main"></section>
+```
+
+File app/view/template/footer.php
+```html
+        </section>
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Widget Header</h3>
+                <ul>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                </ul>
+            </div>
+            <div class="widget-box">
+                <h3 class="title">Widget Text</h3>
+                <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada
+                    tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis.
+                    Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+            </div>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2022 - <i>val_18</i>  </p>
+    </footer>
+    </div>
+</body>
+</html>
+```
+
+Kemudian ubah file <b>app/view/about.php</b> seperti berikut.
+```php
+<?= $this->include('template/header'); ?>
+
+<h1><?= $title; ?></h1>
+<hr>
+<p><?= $content; ?></p>
+
+<?= $this->include('template/footer'); ?>
+```
+
+![](foto/19.png)
+
+ketika direfresh browsernya maka tampilan webnya akan seperti ini
+
+![](foto/20.png)
+
