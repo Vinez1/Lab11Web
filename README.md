@@ -261,3 +261,34 @@ ketika direfresh browsernya maka tampilan webnya akan seperti ini
 
 ![](foto/20.png)
 
+# Prakttikum 12 Framework Lanjutan (CRUD)
+
+**Nama : Fery affandi** <br>
+**NIM : 312010018** <br>
+
+## Database 
+
+ 1. jalankan `apache dan dan mysql` pada `Xampp` dan membuat database baru dengan nama lab_ci4 di http://localhost/phpmyadmin
+
+2. buat tabel  dengan format
+```php
+CREATE TABLE artikel (
+    id INT(11) auto_increment,
+    judul VARCHAR(200) NOT NULL,
+    isi TEXT,
+    gambar VARCHAR(200),
+    status TINYINT(1) DEFAULT 0,
+    slug VARCHAR(200),
+    PRIMARY KEY(id)
+);
+```
+![](foto/21.png)
+
+## Konfigurasi koneksi database
+
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. 
+Konfigurasi dapat dilakukan dengan du acara, yaitu pada file <b>app/config/database.php</b> 
+atau menggunakan file <b>.env</b>. Pada praktikum ini kita gunakan konfigurasi pada file <b>.env</b>. Hapus tanda <b>#</b>.
+
+![](foto/22.png)
+
