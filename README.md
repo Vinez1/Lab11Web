@@ -292,3 +292,22 @@ atau menggunakan file <b>.env</b>. Pada praktikum ini kita gunakan konfigurasi p
 
 ![](foto/22.png)
 
+## Membuat Model
+
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori <b>app/Models</b> dengan nama <b>ArtikelModel.php</b>
+
+![](foto/23.png)
+
+## Membuat Controller
+
+Buat Controller baru dengan nama <b>Artikel.php</b> pada direktori <b>app/Controllers</b>.
+
+![](foto/24.png)
+
+## Membuat View
+
+Buat direktori baru dengan nama artikel pada direktori <b>app/views</b>, kemudian buat file baru dengan nama <b>index.php</b>.
+
+![](foto/25.png)
+
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
