@@ -311,3 +311,6 @@ Buat direktori baru dengan nama artikel pada direktori <b>app/views</b>, kemudia
 ![](foto/25.png)
 
 Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+
+![](foto/26.png)
+

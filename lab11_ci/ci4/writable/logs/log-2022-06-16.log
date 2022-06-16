@@ -46,3 +46,129 @@ in APPPATH\Config\Routes.php on line 23.
  2 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
  4 ROOTPATH\spark(86): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-06-16 09:33:08 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:33:39 --> syntax error, unexpected token "{", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#6 {main}
+CRITICAL - 2022-06-16 09:35:01 --> syntax error, unexpected token "{", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#6 {main}
+CRITICAL - 2022-06-16 09:36:30 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:36:32 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:36:46 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:36:46 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:36:47 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:36:47 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:38:16 --> syntax error, unexpected identifier "INSERT", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:39:12 --> syntax error, unexpected token "(", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:40:10 --> syntax error, unexpected token "(", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
+CRITICAL - 2022-06-16 09:40:12 --> syntax error, unexpected token "(", expecting "function" or "const"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Arti...')
+#2 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\app\Controllers\artikel.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Arti...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\xiaaap\\htdoc...')
+#8 {main}
