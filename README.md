@@ -237,7 +237,7 @@ File app/view/template/footer.php
         </aside>
     </section>
     <footer>
-        <p>&copy; 2022 - <i>val_18</i>  </p>
+        <p>&copy; 2022 - <i>Fery Affandi</i>  </p>
     </footer>
     </div>
 </body>

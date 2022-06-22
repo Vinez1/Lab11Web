@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-22 03:45:31 --> syntax error, unexpected token "class", expecting "{"
+#0 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xiaaap\\htdoc...')
+#1 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xiaaap\htdocs\Lab11Web\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
